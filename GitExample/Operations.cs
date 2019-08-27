@@ -10,9 +10,9 @@ namespace GitExample
     {
         public int Add()
         {
-            int x = 10;
-            int y = 20;
-            int sum = x + y;
+            var x = 10;
+            var y = 20;
+            var sum = x + y;
             return sum;
         }
     }
