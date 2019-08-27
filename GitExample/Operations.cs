@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace GitExample
 {
-    class Operations
+   public class Operations
     {
+        public int Add()
+        {
+            int x = 10;
+            int y = 20;
+            int sum = x + y;
+            return sum;
+        }
     }
 }
