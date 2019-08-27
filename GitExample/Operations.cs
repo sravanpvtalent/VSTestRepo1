@@ -8,12 +8,9 @@ namespace GitExample
 {
    public class Operations
     {
-        public int Add()
+        public int Add(int x,int y)
         {
-            int x = 10;
-            int y = 20;
-            int sum = x + y;
-            return sum;
+            return x + y;
         }
     }
 }
